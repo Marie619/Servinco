@@ -25,6 +25,8 @@
     <color name="btnTextColor">#FFFFFF</color>
     <color name="btn_background">#47BCFE</color>
 
+    <color name="colorGrey">#D3D3D3</color>
+
 
     <color name="logoColor">#000000</color>
     <color name="hintColorEditText">#d2d2d2</color>
