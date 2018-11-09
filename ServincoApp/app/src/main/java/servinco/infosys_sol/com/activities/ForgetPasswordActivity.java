@@ -33,7 +33,6 @@ public class ForgetPasswordActivity extends AppCompatActivity implements View.On
 
         btnForgetPassword =  findViewById(R.id.btnForgetPassword);
         edtTxtForgetPassword =  findViewById(R.id.edtTxtForgetPassword);
-        btnShowSettings = findViewById(R.id.btnShowSettings);
 
 
         btnForgetPassword.setOnClickListener(ForgetPasswordActivity.this);
@@ -51,14 +50,8 @@ public class ForgetPasswordActivity extends AppCompatActivity implements View.On
 
             case R.id.btnForgetPassword:{
                 Toast.makeText(this, "Reset Your password now ", Toast.LENGTH_SHORT).show();
-                startActivity(new Intent(ForgetPasswordActivity.this,ResetPasswordActivity.class));
-                break;
-            }case R.id.btnShowSettings:{
-                Toast.makeText(this, "Settings screen", Toast.LENGTH_SHORT).show();
-                startActivity(new Intent(ForgetPasswordActivity.this,SettingsActivity.class));
                 break;
             }
-
         }
     }
 

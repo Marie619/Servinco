@@ -31,8 +31,10 @@ reset instructions</string>
     <string name="txtResetDesc">Enter your new password below, we’re
 just being extra safe</string>
 
+    <string name="txtHintResetEmail">Email</string>
+    <string name="txtHintOldPassword">Previous Password</string>
     <string name="txtHintNewPassword">New Password</string>
-    <string name="txtHintConfirmPassword">Confirm password</string>
+
 
     <string name="btnResetDone">Done</string>
 
@@ -57,5 +59,6 @@ just being extra safe</string>
     <string name="username_edt_txt_hint">Username</string>
     <string name="email_edt_txt_hint">Email</string>
     <string name="forgot_password">FORGOT PASSWORD</string>
+    <string name="reset_password">Want to reset password</string>
 
 </resources>
